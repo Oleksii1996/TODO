@@ -1,0 +1,13 @@
+{
+  "name": "hometask0",
+  "version": "1.0.0",
+  "description": "",
+  "githubRepository": "https://github.com/Oleksii1996/homeTask0.git",
+  "main": "index.js",
+  "scripts": {
+  	"start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alex",
+  "license": "ISC"
+}
