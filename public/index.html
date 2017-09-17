@@ -4,13 +4,42 @@
     <meta charset="UTF-8">
     <title>Test</title>
     <link rel="stylesheet" href="/styles/bootstrap.min.css">
-    <link rel="stylesheet" href="/styles/testCSS.css">
+    <link rel="stylesheet" href="/styles/style.css">
 </head>
 <body>
-    <h1>Hello world!</h1>
-    <a href="/pages/testPage.html">Next one</a>
-    <img src="/images/testImage0.jpg" alt="testImage0" />
 
-    <script type="text/javascript" src="/scripts/testScript.js"></script>
+	<div class="modal">
+		<div class="modalForm">
+   			<h1>Save your result!</h1>
+   			<input id="name" type="text" placeholder="Your name" />
+   			<br/><button id="saveResult">Save</button>
+		</div>
+	</div>
+
+
+	<header>
+    	<h1>Cubes</h1>
+    	<nav class="navbar">
+    		<div id="start" class="nav-item">
+    			<img src="/images/glyphicons-174-play.png" />
+    		</div>
+    		<div id="pause" class="nav-item">
+    			<img src="/images/glyphicons-175-pause.png" />
+    		</div>
+    		<div id="restart" class="nav-item">
+    			<img src="/images/glyphicons-366-restart.png" />
+    		</div>
+    		<div id="points" class="nav-item">Points: 0</div>
+    		<div id="time" class="nav-item">Time left: 01:00</div>
+    	</nav>
+	</header>
+
+	<section>
+		<div id="results">Results</div>
+		<table id="field" disabled></table>		
+	</section>
+
+	<script type="text/javascript" src="/scripts/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="/scripts/game.js"></script>
 </body>
 </html>

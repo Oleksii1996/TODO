@@ -1,0 +1,118 @@
+.modal {
+   display: none;
+   z-index: 11;
+   position: fixed;
+   text-align: center;
+   width: 100%;
+   height: 100%;
+   background-color: rgba(230, 230, 230, 0.9);
+}
+
+.modalForm {
+   margin: 15%;
+   background-color: white;
+   height: auto;
+   padding: 3%;
+}
+
+
+h1 {
+	text-align: center;
+}
+
+.navbar {
+    width: 100%;
+    text-align: center;
+}
+
+.nav-item {
+	display: inline;
+	width: 20%;
+	padding: 2em;
+}
+
+.nav-item:hover {
+	color: blue;
+}
+
+section {
+	width: 100%;
+}
+
+table {
+	margin: 0 5% 3%;
+	width: 30%;
+	border: 1px solid black;
+	border-collapse: collapse;
+
+}
+
+td {
+	width: 10%;
+	height: 10%;
+	color: rgba(0,0,0,0);
+}
+
+tr {
+	width: 100%;
+}
+
+#results {
+	border: 1px solid black;
+	padding: 0.2em 3em;
+	width: 60%;
+	margin: 0 5% 0 5%;
+	float: right;
+	display: inline-block;
+}
+
+#results h3 {
+	text-align: center;
+}
+
+.active3 {
+	transition: 1s;
+	background-color: red;
+	border-radius: 2px;
+	border: 1px solid black;
+}
+
+.active2 {
+	transition: 1s;
+	background-color: orange;
+	border-radius: 2px;
+	border: 1px solid black;
+}
+
+.active1 {
+	transition: 1s;
+	background-color: yellow;
+	border-radius: 2px;
+	border: 1px solid black;
+}
+
+.active3:hover {
+	transition: 1s;
+	cursor: pointer;
+	border-color: gray;
+}
+
+.active2:hover {
+	transition: 1s;
+	cursor: pointer;
+	border-color: gray;
+}
+
+.active1:hover {
+	transition: 1s;
+	cursor: pointer;
+	border-color: gray;
+}
+
+.nonActive {
+	background-color: white;
+}
+
+.nav-item:hover {
+	cursor: pointer;
+}
